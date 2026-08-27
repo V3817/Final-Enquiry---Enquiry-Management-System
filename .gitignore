@@ -1,0 +1,57 @@
+# === Dependency directories ===
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# === Environment variable files ===
+.env
+.env.*
+frontend/.env
+backend/.env
+
+# === Build outputs ===
+dist/
+dist-ssr/
+build/
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Editor config ===
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === OS & misc system files ===
+.DS_Store
+Thumbs.db
+
+# === Misc cache/lock/config files ===
+*.local
+.parcel-cache/
+coverage/
+
+# === Others ===
+*.tgz
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# === Comments about the above (remove in your actual file) ===
+# Covers: dependencies, local envs, build/dist, logs, editor, OS files, common node/react caches
